@@ -61,6 +61,7 @@ export class AuthService {
     };
   }
 
+  // Test N°6
   static validateAuthToken(request: Request): Result<{ token: string }, null> {
     const authHeader = request.headers;
 
